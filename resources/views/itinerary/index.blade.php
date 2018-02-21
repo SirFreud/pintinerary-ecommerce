@@ -8,7 +8,7 @@
                     @for ($i = 0; $i < 4; $i++)
                         <div class="column is-one-third">
                             <div class="tile is-12 is-parent">
-                                <article class="tile is-child notification is-primary box">
+                                <article class="tile is-child is-primary box">
                                     <p class="title">Vertical...</p>
                                     <p class="subtitle">Top tile</p>
                                     <figure class="image is-4by3">
