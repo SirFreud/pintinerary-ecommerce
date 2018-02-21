@@ -15,6 +15,7 @@ class CreateItinerariesTable extends Migration
     {
         Schema::create('itineraries', function (Blueprint $table) {
             $table->increments('id');
+            $table->unsignedInteger('user_id')->index();
             $table->string('title');
             $table->string('slug')->unique();
             $table->enum('category', ['backpacker', 'couple', 'family']);
